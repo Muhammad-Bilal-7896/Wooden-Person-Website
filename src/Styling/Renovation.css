@@ -1,0 +1,66 @@
+.pad-top-60 {
+    padding-top: 60px !important;
+}
+
+.pad-bot-60 {
+    padding-bottom: 60px !important;
+}
+
+.renovate-text {
+    float: left;
+    width: 100%;
+}
+
+
+p.para-text1 {
+    color: black;
+    font-size: 16px;
+    max-width: 92%;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+.renovate-image1 {
+    float: left;
+    width: 100%;
+}
+
+
+.renovate-image1 img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px 40px 5px 40px;
+    border: 15px solid #925c1e;
+    box-shadow: 1px 1px 20px silver;
+}
+
+.renovate-image2 {
+    float: left;
+    width: 100%;
+}
+.renovate-image2 img {
+ 
+    width: 100%;
+}
+
+
+.renovate-text h2 {
+    color: black;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0px 0px 5px 0px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    max-width: 90%;
+}
+.renovate-text h3 {
+    color: black;
+    font-size: 18px;
+    max-width: 90%;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}

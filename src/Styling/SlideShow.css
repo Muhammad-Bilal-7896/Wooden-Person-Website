@@ -1,0 +1,673 @@
+/* For best showcase buttons next,previous */
+
+@media all and (max-width:325px)
+{
+    #slideshowText
+    {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .hideMobile
+    {
+        display: none;
+    }
+}
+
+
+.carousel-inner {
+    width: 100%;
+}
+
+#carouselBasicExample {
+    width: 100%;
+}
+
+.carousel-control-prev {
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-control-next {
+    background-color: transparent;
+    border: none;
+}
+
+/* For best showcase buttons next,previous */
+
+.banner-bg1 {
+    background-image: url(".././UI/Front11.JPEG XR");
+}
+
+.banner-bg2 {
+    background-image: url(".././UI/F2.JPEG XR");
+}
+
+.banner-bg4 {
+    background-image: url(".././UI/ff.JPEG XR");
+}
+
+.banner-slider .item {
+    background-size: cover;
+    padding: 150px 0px;
+    height: 650px;
+}
+
+.banner-text {
+    float: left;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 30px 30px 30px;
+}
+
+.banner-text h3 {
+    /*color: white;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 20px !important;
+    margin-top: 0px;
+    font-family: Roboto;*/
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 0px;
+    font-family: Roboto;
+}
+
+.banner-text h5 {
+    /*color: white;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;*/
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.banner-text ul {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+a.carousel-control {
+    width: 50px;
+    opacity: 1;
+}
+
+.renovate-text {
+    float: left;
+    width: 100%;
+}
+
+.renovate-text h2 {
+    color: black;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0px 0px 5px 0px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    max-width: 90%;
+}
+
+.renovate-text h3 {
+    color: black;
+    font-size: 18px;
+    max-width: 90%;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+
+p.para-text1 {
+    color: black;
+    font-size: 16px;
+    max-width: 92%;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+.renovate-text h4 {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.renovate-image1 {
+    float: left;
+    width: 100%;
+}
+
+.renovate-image1 img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px 40px 5px 40px;
+    border: 15px solid #925c1e;
+    box-shadow: 1px 1px 20px silver;
+}
+
+.renovate-image2 {
+    float: left;
+    width: 100%;
+}
+
+.renovate-image2 img {
+    width: 100%;
+}
+
+.fade-slider {
+    background: #363636;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fade-slider img {
+    display: none;
+    border: 3px solid #000;
+    height: auto;
+    width: 100%;
+    border: none;
+}
+
+.fade-slider img.show {
+    display: inline;
+}
+
+.detail-image {
+    float: left;
+    width: 100%;
+}
+
+.fade-slider {
+    background: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.detail-text {
+    float: left;
+    width: 100%;
+}
+
+.detail-text h3 {
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 18px 0px 12px 0px;
+    font-family: 'Roboto';
+}
+
+h6.line1 {
+    background: #925c1e;
+    width: 100px;
+    font-size: 0px;
+    height: 4px;
+    border-radius: 30px;
+}
+
+.detail-text p {
+    color: black;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+.detail-image {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bg-silver {
+    background: #eee !important;
+}
+
+.detail-grids {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner>.item.next, .carousel-fade .carousel-inner>.item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner>.item.prev, .carousel-fade .carousel-inner>.item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner>.item.next.left, .carousel-fade .carousel-inner>.item.prev.right, .carousel-fade .carousel-inner>.item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+div#myCarousel {
+    float: left;
+    width: 100%;
+}
+
+.text-center h6.line1 {
+    margin: auto;
+}
+
+.advan-box {
+    float: left;
+    width: 100%;
+    background: #925c1e;
+}
+
+.advan-box h3 {
+    color: white;
+    margin: 20px 20px 15px 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    font-size: 24px;
+}
+
+.advan-box p {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 0px 20px;
+}
+
+.advan-box {
+    float: left;
+    width: 100%;
+    background: #925c1e;
+    min-height: 590px;
+}
+
+.navbar-handler {
+    display: none;
+}
+
+footer {
+    background: #252525;
+    padding: 60px 0px 30px 0px;
+}
+
+.footer-top {
+    float: left;
+    width: 100%;
+}
+
+.footer-col {
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.footer-col h3 {
+    color: white;
+    margin: 0px 0px 15px 0px;
+    /*   font-family: 'Roboto*/
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+.footer-col p {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-col ul li {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    display: inline-block;
+    margin-right: 0px;
+    width: 50%;
+    float: left;
+}
+
+ul.double-list {
+    padding: 0px;
+    list-style: none;
+}
+
+ul.double-list li {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+}
+
+
+
+.email-head
+{
+    font-size: 25px;
+    text-shadow: 2px 1px 1px grey;
+    background-color: #f0cb59;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.email-form
+{
+    margin-right: 0px;
+    
+}
+
+.get-quote-but
+{
+    background-color: #333333;
+    color: #c78b39;
+
+    margin-top: 10px;
+    text-shadow: 0.5px 1px 0.5px white;
+    font-size: 22px;
+
+    
+    /* text-shadow: 0.5px 0.5px 0.5px grey; */
+    text-align: center;
+    
+}
+
+
+.slideInput
+{
+    margin-top: 5px;
+}
+
+
+
+/*Media Queries Of Website*/
+
+/*Small Laptops*/
+
+@media screen and (max-width:992px) and (min-width:768px) {}
+
+/*Tablet Devices*/
+
+@media screen and (max-width:767px) and (min-width:520px) {
+    .top-bar-left h6 {
+        color: white;
+        font-weight: 300;
+        letter-spacing: 0.4px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .top-bar-right {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .renovate-image2 {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    div#myCarousel {
+        margin: 0px 0px 40px 0px !important;
+    }
+    .detail-image2 {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .detail-text h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin: 18px 0px 12px 0px;
+        font-family: 'Roboto';
+        line-height: 35px;
+    }
+    .advan-box {
+        float: left;
+        width: 100%;
+        background: #925c1e;
+        min-height: 0px;
+        padding-bottom: 15px;
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+    .detail-image {
+        margin: 0px !important;
+    }
+    .navbar-handler {
+        display: block;
+        float: right;
+        background: #925c1e;
+        padding: 7px 5px;
+        margin-top: 25px;
+    }
+    .navbar-handler img {
+        width: 30px;
+    }
+    .logo a img {
+        width: 180px;
+    }
+    .menu-item {
+        float: left;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .menu-item a {
+        color: black;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        font-size: 16px;
+        padding: 10px 0px;
+        font-family: 'Roboto';
+        display: block;
+    }
+    .navbar-custom {
+        float: right;
+        width: 100%;
+        display: none;
+        padding-top: 15px;
+    }
+    .banner-text {
+        float: left;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px 30px 30px 30px;
+    }
+    .banner-text h3 {
+        color: white;
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        font-family: Roboto;
+    }
+    .banner-text h5 {
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .banner-slider .item {
+        background-size: cover;
+        padding: 70px 0px;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+/*Mobile Devices*/
+
+@media screen and (max-width:519px) and (min-width:320px) {
+    .top-bar-left h6 {
+        color: white;
+        font-weight: 300;
+        letter-spacing: 0.4px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .top-bar-right {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .renovate-image2 {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    div#myCarousel {
+        margin: 0px 0px 40px 0px !important;
+    }
+    .detail-image2 {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .detail-text h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin: 18px 0px 12px 0px;
+        font-family: 'Roboto';
+        line-height: 35px;
+    }
+    .advan-box {
+        float: left;
+        width: 100%;
+        background: #925c1e;
+        min-height: 0px;
+        padding-bottom: 15px;
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+    .detail-image {
+        margin: 0px !important;
+    }
+    .navbar-handler {
+        display: block;
+        float: right;
+        background: #925c1e;
+        padding: 7px 5px;
+        margin-top: 25px;
+    }
+    .navbar-handler img {
+        width: 30px;
+    }
+    .logo a img {
+        width: 180px;
+    }
+    .menu-item {
+        float: left;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .menu-item a {
+        color: black;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        font-size: 16px;
+        padding: 10px 0px;
+        font-family: 'Roboto';
+        display: block;
+    }
+    .navbar-custom {
+        float: right;
+        width: 100%;
+        display: none;
+        padding-top: 15px;
+    }
+    .banner-text {
+        float: left;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px 30px 30px 30px;
+    }
+    .banner-text h3 {
+        color: white;
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        font-family: Roboto;
+    }
+    .banner-text h5 {
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .banner-slider .item {
+        background-size: cover;
+        padding: 70px 0px;
+        height: auto;
+    }
+    ul.double-list li {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,74 @@
+section , header , footer {
+    float: left;
+    width: 100%;
+}
+
+
+section.top-bar {
+    background: #3c3c3c;
+    padding: 5px 0px;
+}
+
+
+.top-bar-left {
+    float: left;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.top-bar-left h6 {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+}
+
+.top-bar-left h6 span {
+    margin-left: 10px;
+}
+
+.top-bar-left h6 span i {
+    color: #dada12;
+}
+
+.top-bar-left h6 span b {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.top-bar-right {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+
+.top-bar-right span {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+
+.top-bar-right span i {
+    color: #d09f28;
+}
+
+i.fa-phone {
+	transform:  rotate(90deg);
+	-webkit-transform:  rotate(90deg);
+}
+
+.top-bar-right span i {
+    color: #d09f28;
+    margin-right: 5px;
+}
+
+.container-own
+{
+    position: relative;
+    z-index: 0;
+}
